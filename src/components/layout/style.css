@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  max-width: 1600px;
+  margin: auto;
+}
+.left-pane {
+  flex: 0.7;
+  position: fixed;
+}
+.main-content {
+  flex: 3;
+  margin-left: 270px;
+}

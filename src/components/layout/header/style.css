@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 70px;
+  align-items: center;
+  background-color: #fff;
+  border-left: 1px solid #f2f4f7;
+}
+.right-header {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.verify {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475467;
+}

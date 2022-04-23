@@ -1,0 +1,45 @@
+.main-wrapper {
+  background-color: #f2f4f7;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-container {
+  height: 100%;
+}
+.vehicle-infos {
+  display: flex;
+  padding: 28px 40px 56px 40px;
+}
+.vehicle-details {
+  margin: 32px 32px 32px 32px;
+  background-color: #fff;
+}
+.vehicle-heading {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.car-history {
+  background-color: #fff;
+  text-align: center;
+}
+.car-history-title {
+  font-size: 18px;
+  color: #1d2939;
+  padding-bottom: 12px;
+  font-weight: 500;
+}
+.car-history-model {
+  font-size: 20px;
+  color: #ff8640;
+}
+.services {
+  font-size: 16px;
+  color: #475467;
+  padding: 20px 0 32px 0;
+  display: inline-block;
+}
+.history-detail {
+  padding-bottom: 20px;
+}

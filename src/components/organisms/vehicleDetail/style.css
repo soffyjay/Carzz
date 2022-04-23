@@ -1,0 +1,33 @@
+.second-box {
+  flex: 3;
+  height: 260px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 48px 0 0 0;
+  border: 1px solid #d0d5dd;
+  border-radius: 16px;
+  flex-direction: column;
+  line-height: 1.5;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  width: 100%;
+  padding-bottom: 18px;
+  padding-left: 40px;
+}
+.contents div {
+  flex: 1;
+}
+.light-text {
+  color: #667085;
+  padding-bottom: 12px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+}
+.sub-text {
+  max-width: 240px;
+}
