@@ -2,6 +2,7 @@
   padding-top: 10px;
   padding-left: 10px;
   width: 280px;
+  height: 100%;
 }
 
 ul {
@@ -12,15 +13,35 @@ li {
   padding-bottom: 16px;
   justify-content: space-between;
   padding-left: 8px;
+  line-height: 1.5;
+  position: relative;
 }
+
+.active {
+  background-color: #8e44ad;
+  width: 90%;
+  border-radius: 9px;
+  height: 48px;
+  margin-bottom: 5px;
+}
+.active a {
+  color: #fff;
+  margin-top: 12px;
+  display: inline-block;
+}
+.active .icons {
+  margin-top: 11px;
+  color: #fff;
+}
+
 li a {
   display: inline-block;
   width: 84%;
   color: #667085;
-
+  margin-top: 4px;
   text-decoration: none;
 }
 .icons {
   color: #667085;
-  font-size: 18px;
+  font-size: 24px;
 }

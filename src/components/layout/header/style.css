@@ -9,7 +9,7 @@
 }
 .right-header {
   display: flex;
-  width: 40%;
+  width: 380px;
   justify-content: space-between;
 }
 .verify {

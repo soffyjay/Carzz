@@ -30,7 +30,7 @@ const Aside = () => {
 
           <Link to="/">Dashboard</Link>
         </li>
-        <li>
+        <li className="active">
           <span className="icons">
             <BsSearch />
           </span>
